@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    border: 2px solid black;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 75px); 
+    grid-template-rows: repeat(7, 50px); 
+    gap: 5px;
+    padding: 10px;
+    width: 330px;
+    height: 330px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.grid:hover {
+    background-color: #dcdcdc;
+}
+
+#display {
+    font-size: 30px;
+    justify-content: flex-end;
+    padding-right: 10px;
+    width: 300px;
+    height: 50px;
+}
+
